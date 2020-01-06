@@ -1,0 +1,19 @@
+import OS
+
+Renaming a File:
+>>>os.rename("D:\\hello.txt","D:\\hello.csv")
+
+Deleting a File:
+>>>os.remove('D:\\hello.csv')
+
+Creating a Directory:
+>>>os.mkdir('D:\\Rajesh')
+
+Deleting a Directory:
+>>>os.rmdir('D:\\Rajesh')
+
+Get current working Directory:
+>>>os.getcwd()
+
+Change Current working Directory:
+>>>os.chcwd("D:\\")
